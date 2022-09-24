@@ -20,6 +20,9 @@ parser.add_argument("--build_type", type=str, choices=['Debug', 'Release'],
 args = parser.parse_args()
 
 
+mkdir @(args.build_dir)/build
+mkdir @(args.build_dir)/build/@(args.build_type)
+
 cd @(args.build_dir)/build/@(args.build_type)
 
 if not args.build_all:

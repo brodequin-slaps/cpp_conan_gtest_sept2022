@@ -1,0 +1,22 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "cppdbg",
+            "name": "Debug YOUR_PROJECT_NAME",
+            "program": "${workspaceFolder}/YOUR_PROJECT_NAME/build/Debug/bin/YOUR_PROJECT_NAME",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/YOUR_PROJECT_NAME/build/Debug/bin/"
+        },
+        {
+            "type": "cppdbg",
+            "name": "Debug tests",
+            "program": "${workspaceFolder}/test/build/Debug/bin/YOUR_PROJECT_NAMETests",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/test/build/Debug/bin/"
+        }
+    ]
+}
