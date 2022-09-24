@@ -44,16 +44,16 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sam/development/<YOUR_PROJECT_NAME>/<YOUR_PROJECT_NAME>
+CMAKE_SOURCE_DIR = /home/sam/development/YOUR_PROJECT_NAME/YOUR_PROJECT_NAME
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sam/development/<YOUR_PROJECT_NAME>/<YOUR_PROJECT_NAME>/build/Debug
+CMAKE_BINARY_DIR = /home/sam/development/YOUR_PROJECT_NAME/YOUR_PROJECT_NAME/build/Debug
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/<YOUR_PROJECT_NAME>.dir/all
+all: CMakeFiles/YOUR_PROJECT_NAME.dir/all
 
 .PHONY : all
 
@@ -63,36 +63,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/<YOUR_PROJECT_NAME>.dir/clean
+clean: CMakeFiles/YOUR_PROJECT_NAME.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/<YOUR_PROJECT_NAME>.dir
+# Target rules for target CMakeFiles/YOUR_PROJECT_NAME.dir
 
 # All Build rule for target.
-CMakeFiles/<YOUR_PROJECT_NAME>.dir/all:
-	$(MAKE) -f CMakeFiles/<YOUR_PROJECT_NAME>.dir/build.make CMakeFiles/<YOUR_PROJECT_NAME>.dir/depend
-	$(MAKE) -f CMakeFiles/<YOUR_PROJECT_NAME>.dir/build.make CMakeFiles/<YOUR_PROJECT_NAME>.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sam/development/<YOUR_PROJECT_NAME>/<YOUR_PROJECT_NAME>/build/Debug/CMakeFiles --progress-num=1,2,3,4 "Built target <YOUR_PROJECT_NAME>"
-.PHONY : CMakeFiles/<YOUR_PROJECT_NAME>.dir/all
+CMakeFiles/YOUR_PROJECT_NAME.dir/all:
+	$(MAKE) -f CMakeFiles/YOUR_PROJECT_NAME.dir/build.make CMakeFiles/YOUR_PROJECT_NAME.dir/depend
+	$(MAKE) -f CMakeFiles/YOUR_PROJECT_NAME.dir/build.make CMakeFiles/YOUR_PROJECT_NAME.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sam/development/YOUR_PROJECT_NAME/YOUR_PROJECT_NAME/build/Debug/CMakeFiles --progress-num=1,2,3,4 "Built target YOUR_PROJECT_NAME"
+.PHONY : CMakeFiles/YOUR_PROJECT_NAME.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/<YOUR_PROJECT_NAME>.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sam/development/<YOUR_PROJECT_NAME>/<YOUR_PROJECT_NAME>/build/Debug/CMakeFiles 4
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/<YOUR_PROJECT_NAME>.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sam/development/<YOUR_PROJECT_NAME>/<YOUR_PROJECT_NAME>/build/Debug/CMakeFiles 0
-.PHONY : CMakeFiles/<YOUR_PROJECT_NAME>.dir/rule
+CMakeFiles/YOUR_PROJECT_NAME.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sam/development/YOUR_PROJECT_NAME/YOUR_PROJECT_NAME/build/Debug/CMakeFiles 4
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/YOUR_PROJECT_NAME.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sam/development/YOUR_PROJECT_NAME/YOUR_PROJECT_NAME/build/Debug/CMakeFiles 0
+.PHONY : CMakeFiles/YOUR_PROJECT_NAME.dir/rule
 
 # Convenience name for target.
-<YOUR_PROJECT_NAME>: CMakeFiles/<YOUR_PROJECT_NAME>.dir/rule
+YOUR_PROJECT_NAME: CMakeFiles/YOUR_PROJECT_NAME.dir/rule
 
-.PHONY : <YOUR_PROJECT_NAME>
+.PHONY : YOUR_PROJECT_NAME
 
 # clean rule for target.
-CMakeFiles/<YOUR_PROJECT_NAME>.dir/clean:
-	$(MAKE) -f CMakeFiles/<YOUR_PROJECT_NAME>.dir/build.make CMakeFiles/<YOUR_PROJECT_NAME>.dir/clean
-.PHONY : CMakeFiles/<YOUR_PROJECT_NAME>.dir/clean
+CMakeFiles/YOUR_PROJECT_NAME.dir/clean:
+	$(MAKE) -f CMakeFiles/YOUR_PROJECT_NAME.dir/build.make CMakeFiles/YOUR_PROJECT_NAME.dir/clean
+.PHONY : CMakeFiles/YOUR_PROJECT_NAME.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/sam/development/<YOUR_PROJECT_NAME>/<YOUR_PROJECT_NAME>/bresenham.cpp" "/home/sam/development/<YOUR_PROJECT_NAME>/<YOUR_PROJECT_NAME>/build/Debug/CMakeFiles/<YOUR_PROJECT_NAME>.dir/bresenham.cpp.o"
-  "/home/sam/development/<YOUR_PROJECT_NAME>/<YOUR_PROJECT_NAME>/helpers.cpp" "/home/sam/development/<YOUR_PROJECT_NAME>/<YOUR_PROJECT_NAME>/build/Debug/CMakeFiles/<YOUR_PROJECT_NAME>.dir/helpers.cpp.o"
-  "/home/sam/development/<YOUR_PROJECT_NAME>/<YOUR_PROJECT_NAME>/main.cpp" "/home/sam/development/<YOUR_PROJECT_NAME>/<YOUR_PROJECT_NAME>/build/Debug/CMakeFiles/<YOUR_PROJECT_NAME>.dir/main.cpp.o"
+  "/home/sam/development/YOUR_PROJECT_NAME/YOUR_PROJECT_NAME/bresenham.cpp" "/home/sam/development/YOUR_PROJECT_NAME/YOUR_PROJECT_NAME/build/Debug/CMakeFiles/YOUR_PROJECT_NAME.dir/bresenham.cpp.o"
+  "/home/sam/development/YOUR_PROJECT_NAME/YOUR_PROJECT_NAME/helpers.cpp" "/home/sam/development/YOUR_PROJECT_NAME/YOUR_PROJECT_NAME/build/Debug/CMakeFiles/YOUR_PROJECT_NAME.dir/helpers.cpp.o"
+  "/home/sam/development/YOUR_PROJECT_NAME/YOUR_PROJECT_NAME/main.cpp" "/home/sam/development/YOUR_PROJECT_NAME/YOUR_PROJECT_NAME/build/Debug/CMakeFiles/YOUR_PROJECT_NAME.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

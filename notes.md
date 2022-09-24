@@ -1,5 +1,5 @@
 # Using this template repo
-1. Replace every <YOUR_PROJECT_NAME> instance with your project's name.
+1. Replace every YOUR_PROJECT_NAME instance with your project's name.
 2. See the `commands.md` file
 
 # why im using `script -qc`

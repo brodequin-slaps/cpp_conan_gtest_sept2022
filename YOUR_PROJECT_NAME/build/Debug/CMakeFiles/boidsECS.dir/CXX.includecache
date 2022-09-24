@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-../../../<YOUR_PROJECT_NAME>/ECS.hpp
+../../../YOUR_PROJECT_NAME/ECS.hpp
 cstdint
 -
 array
@@ -27,28 +27,28 @@ cstring
 -
 chrono
 -
-<YOUR_PROJECT_NAME>/usings.hpp
+YOUR_PROJECT_NAME/usings.hpp
 -
-<YOUR_PROJECT_NAME>/gmeta.hpp
+YOUR_PROJECT_NAME/gmeta.hpp
 -
-<YOUR_PROJECT_NAME>/helpers.hpp
+YOUR_PROJECT_NAME/helpers.hpp
 -
 
-../../../<YOUR_PROJECT_NAME>/bresenham.hpp
+../../../YOUR_PROJECT_NAME/bresenham.hpp
 vector
 -
-<YOUR_PROJECT_NAME>/helpers.hpp
+YOUR_PROJECT_NAME/helpers.hpp
 -
 
-../../../<YOUR_PROJECT_NAME>/bresenham_visutool.hpp
+../../../YOUR_PROJECT_NAME/bresenham_visutool.hpp
 SFML/Graphics.hpp
 -
-<YOUR_PROJECT_NAME>/bresenham.hpp
+YOUR_PROJECT_NAME/bresenham.hpp
 -
-<YOUR_PROJECT_NAME>/helpers.hpp
+YOUR_PROJECT_NAME/helpers.hpp
 -
 
-../../../<YOUR_PROJECT_NAME>/flocon_generator.hpp
+../../../YOUR_PROJECT_NAME/flocon_generator.hpp
 chrono
 -
 cmath
@@ -61,24 +61,24 @@ SFML/Graphics.hpp
 -
 GL/glew.h
 -
-<YOUR_PROJECT_NAME>/bresenham.hpp
+YOUR_PROJECT_NAME/bresenham.hpp
 -
-<YOUR_PROJECT_NAME>/helpers.hpp
+YOUR_PROJECT_NAME/helpers.hpp
 -
-<YOUR_PROJECT_NAME>/ECS.hpp
+YOUR_PROJECT_NAME/ECS.hpp
 -
 
-../../../<YOUR_PROJECT_NAME>/gmeta.hpp
+../../../YOUR_PROJECT_NAME/gmeta.hpp
 variant
 -
 array
 -
 iostream
 -
-<YOUR_PROJECT_NAME>/usings.hpp
+YOUR_PROJECT_NAME/usings.hpp
 -
 
-../../../<YOUR_PROJECT_NAME>/helpers.hpp
+../../../YOUR_PROJECT_NAME/helpers.hpp
 iostream
 -
 tuple
@@ -88,7 +88,7 @@ memory
 cstring
 -
 
-../../../<YOUR_PROJECT_NAME>/jkxsmash.hpp
+../../../YOUR_PROJECT_NAME/jkxsmash.hpp
 chrono
 -
 cmath
@@ -97,12 +97,12 @@ SFML/Graphics.hpp
 -
 GL/glew.h
 -
-<YOUR_PROJECT_NAME>/helpers.hpp
+YOUR_PROJECT_NAME/helpers.hpp
 -
-<YOUR_PROJECT_NAME>/ECS.hpp
+YOUR_PROJECT_NAME/ECS.hpp
 -
 
-../../../<YOUR_PROJECT_NAME>/usings.hpp
+../../../YOUR_PROJECT_NAME/usings.hpp
 cstdint
 -
 
@@ -800,17 +800,17 @@ SFML/Config.hpp
 
 /home/sam/.conan/data/sfml/2.5.1/_/_/package/209ebd008c3b0027cf54068771bc1666fc7a7217/include/SFML/Window/WindowStyle.hpp
 
-/home/sam/development/<YOUR_PROJECT_NAME>/<YOUR_PROJECT_NAME>/main.cpp
+/home/sam/development/YOUR_PROJECT_NAME/YOUR_PROJECT_NAME/main.cpp
 SFML/Graphics.hpp
 -
 iostream
 -
-<YOUR_PROJECT_NAME>/ECS.hpp
+YOUR_PROJECT_NAME/ECS.hpp
 -
-<YOUR_PROJECT_NAME>/bresenham_visutool.hpp
+YOUR_PROJECT_NAME/bresenham_visutool.hpp
 -
-<YOUR_PROJECT_NAME>/flocon_generator.hpp
+YOUR_PROJECT_NAME/flocon_generator.hpp
 -
-<YOUR_PROJECT_NAME>/jkxsmash.hpp
+YOUR_PROJECT_NAME/jkxsmash.hpp
 -
 

@@ -3,7 +3,7 @@
 #src abd test subdirectories added with add_subdirectory()
 
 cmake_minimum_required(VERSION 3.10)
-project(<YOUR_PROJECT_NAME>)
+project(YOUR_PROJECT_NAME)
 
 #add project code
 add_subdirectory(src)

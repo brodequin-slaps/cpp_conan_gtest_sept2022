@@ -6,5 +6,5 @@ if [ $? -ne 0 ]; then
 echo Compilation failed
 else
 echo Compilation success, running tests
-test/build/Release/bin/<YOUR_PROJECT_NAME>Tests
+test/build/Release/bin/YOUR_PROJECT_NAMETests
 fi

@@ -1,4 +1,4 @@
-<YOUR_PROJECT_NAME>/build/**
+YOUR_PROJECT_NAME/build/**
 test/build/**
 perf.data
 typescript

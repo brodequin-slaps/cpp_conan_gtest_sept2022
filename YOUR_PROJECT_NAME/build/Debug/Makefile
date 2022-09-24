@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sam/development/<YOUR_PROJECT_NAME>/<YOUR_PROJECT_NAME>
+CMAKE_SOURCE_DIR = /home/sam/development/YOUR_PROJECT_NAME/YOUR_PROJECT_NAME
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sam/development/<YOUR_PROJECT_NAME>/<YOUR_PROJECT_NAME>/build/Debug
+CMAKE_BINARY_DIR = /home/sam/development/YOUR_PROJECT_NAME/YOUR_PROJECT_NAME/build/Debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sam/development/<YOUR_PROJECT_NAME>/<YOUR_PROJECT_NAME>/build/Debug/CMakeFiles /home/sam/development/<YOUR_PROJECT_NAME>/<YOUR_PROJECT_NAME>/build/Debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sam/development/YOUR_PROJECT_NAME/YOUR_PROJECT_NAME/build/Debug/CMakeFiles /home/sam/development/YOUR_PROJECT_NAME/YOUR_PROJECT_NAME/build/Debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sam/development/<YOUR_PROJECT_NAME>/<YOUR_PROJECT_NAME>/build/Debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sam/development/YOUR_PROJECT_NAME/YOUR_PROJECT_NAME/build/Debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named <YOUR_PROJECT_NAME>
+# Target rules for targets named YOUR_PROJECT_NAME
 
 # Build rule for target.
-<YOUR_PROJECT_NAME>: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 <YOUR_PROJECT_NAME>
-.PHONY : <YOUR_PROJECT_NAME>
+YOUR_PROJECT_NAME: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 YOUR_PROJECT_NAME
+.PHONY : YOUR_PROJECT_NAME
 
 # fast build rule for target.
-<YOUR_PROJECT_NAME>/fast:
-	$(MAKE) -f CMakeFiles/<YOUR_PROJECT_NAME>.dir/build.make CMakeFiles/<YOUR_PROJECT_NAME>.dir/build
-.PHONY : <YOUR_PROJECT_NAME>/fast
+YOUR_PROJECT_NAME/fast:
+	$(MAKE) -f CMakeFiles/YOUR_PROJECT_NAME.dir/build.make CMakeFiles/YOUR_PROJECT_NAME.dir/build
+.PHONY : YOUR_PROJECT_NAME/fast
 
 bresenham.o: bresenham.cpp.o
 
@@ -129,7 +129,7 @@ bresenham.o: bresenham.cpp.o
 
 # target to build an object file
 bresenham.cpp.o:
-	$(MAKE) -f CMakeFiles/<YOUR_PROJECT_NAME>.dir/build.make CMakeFiles/<YOUR_PROJECT_NAME>.dir/bresenham.cpp.o
+	$(MAKE) -f CMakeFiles/YOUR_PROJECT_NAME.dir/build.make CMakeFiles/YOUR_PROJECT_NAME.dir/bresenham.cpp.o
 .PHONY : bresenham.cpp.o
 
 bresenham.i: bresenham.cpp.i
@@ -138,7 +138,7 @@ bresenham.i: bresenham.cpp.i
 
 # target to preprocess a source file
 bresenham.cpp.i:
-	$(MAKE) -f CMakeFiles/<YOUR_PROJECT_NAME>.dir/build.make CMakeFiles/<YOUR_PROJECT_NAME>.dir/bresenham.cpp.i
+	$(MAKE) -f CMakeFiles/YOUR_PROJECT_NAME.dir/build.make CMakeFiles/YOUR_PROJECT_NAME.dir/bresenham.cpp.i
 .PHONY : bresenham.cpp.i
 
 bresenham.s: bresenham.cpp.s
@@ -147,7 +147,7 @@ bresenham.s: bresenham.cpp.s
 
 # target to generate assembly for a file
 bresenham.cpp.s:
-	$(MAKE) -f CMakeFiles/<YOUR_PROJECT_NAME>.dir/build.make CMakeFiles/<YOUR_PROJECT_NAME>.dir/bresenham.cpp.s
+	$(MAKE) -f CMakeFiles/YOUR_PROJECT_NAME.dir/build.make CMakeFiles/YOUR_PROJECT_NAME.dir/bresenham.cpp.s
 .PHONY : bresenham.cpp.s
 
 helpers.o: helpers.cpp.o
@@ -156,7 +156,7 @@ helpers.o: helpers.cpp.o
 
 # target to build an object file
 helpers.cpp.o:
-	$(MAKE) -f CMakeFiles/<YOUR_PROJECT_NAME>.dir/build.make CMakeFiles/<YOUR_PROJECT_NAME>.dir/helpers.cpp.o
+	$(MAKE) -f CMakeFiles/YOUR_PROJECT_NAME.dir/build.make CMakeFiles/YOUR_PROJECT_NAME.dir/helpers.cpp.o
 .PHONY : helpers.cpp.o
 
 helpers.i: helpers.cpp.i
@@ -165,7 +165,7 @@ helpers.i: helpers.cpp.i
 
 # target to preprocess a source file
 helpers.cpp.i:
-	$(MAKE) -f CMakeFiles/<YOUR_PROJECT_NAME>.dir/build.make CMakeFiles/<YOUR_PROJECT_NAME>.dir/helpers.cpp.i
+	$(MAKE) -f CMakeFiles/YOUR_PROJECT_NAME.dir/build.make CMakeFiles/YOUR_PROJECT_NAME.dir/helpers.cpp.i
 .PHONY : helpers.cpp.i
 
 helpers.s: helpers.cpp.s
@@ -174,7 +174,7 @@ helpers.s: helpers.cpp.s
 
 # target to generate assembly for a file
 helpers.cpp.s:
-	$(MAKE) -f CMakeFiles/<YOUR_PROJECT_NAME>.dir/build.make CMakeFiles/<YOUR_PROJECT_NAME>.dir/helpers.cpp.s
+	$(MAKE) -f CMakeFiles/YOUR_PROJECT_NAME.dir/build.make CMakeFiles/YOUR_PROJECT_NAME.dir/helpers.cpp.s
 .PHONY : helpers.cpp.s
 
 main.o: main.cpp.o
@@ -183,7 +183,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/<YOUR_PROJECT_NAME>.dir/build.make CMakeFiles/<YOUR_PROJECT_NAME>.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/YOUR_PROJECT_NAME.dir/build.make CMakeFiles/YOUR_PROJECT_NAME.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -192,7 +192,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/<YOUR_PROJECT_NAME>.dir/build.make CMakeFiles/<YOUR_PROJECT_NAME>.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/YOUR_PROJECT_NAME.dir/build.make CMakeFiles/YOUR_PROJECT_NAME.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -201,7 +201,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/<YOUR_PROJECT_NAME>.dir/build.make CMakeFiles/<YOUR_PROJECT_NAME>.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/YOUR_PROJECT_NAME.dir/build.make CMakeFiles/YOUR_PROJECT_NAME.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -212,7 +212,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... <YOUR_PROJECT_NAME>"
+	@echo "... YOUR_PROJECT_NAME"
 	@echo "... bresenham.o"
 	@echo "... bresenham.i"
 	@echo "... bresenham.s"

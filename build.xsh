@@ -2,8 +2,8 @@
 
 import argparse
 
-parser = argparse.ArgumentParser(description='build either test or <YOUR_PROJECT_NAME>')
-parser.add_argument("--build_dir", type=str, choices=['<YOUR_PROJECT_NAME>', 'test'], 
+parser = argparse.ArgumentParser(description='build either test or YOUR_PROJECT_NAME')
+parser.add_argument("--build_dir", type=str, choices=['YOUR_PROJECT_NAME', 'test'], 
                         help='Which directory to build')
 
 parser.add_argument("--build_all_conan", dest='build_all', action='store_true', 
