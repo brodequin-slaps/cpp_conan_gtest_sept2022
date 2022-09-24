@@ -1,5 +1,8 @@
 #!/usr/bin/env xonsh
 
+$CC = '/usr/bin/gcc-11'
+$CXX = '/usr/bin/g++-11'
+
 import argparse
 
 parser = argparse.ArgumentParser(description='build either test or YOUR_PROJECT_NAME')
@@ -19,9 +22,7 @@ parser.add_argument("--build_type", type=str, choices=['Debug', 'Release'],
 
 args = parser.parse_args()
 
-
-mkdir @(args.build_dir)/build
-mkdir @(args.build_dir)/build/@(args.build_type)
+mkdir -p @(args.build_dir)/build/@(args.build_type)
 
 cd @(args.build_dir)/build/@(args.build_type)
 

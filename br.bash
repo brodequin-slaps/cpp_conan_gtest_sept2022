@@ -1,1 +1,1 @@
-CC=gcc-11 CXX=g++-11 ./build.xsh --build_dir YOUR_PROJECT_NAME --build_missing_conan --build_type Release
+./build.xsh --build_dir YOUR_PROJECT_NAME --build_missing_conan --build_type Release
