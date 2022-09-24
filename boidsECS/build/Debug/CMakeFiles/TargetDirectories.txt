@@ -1,0 +1,3 @@
+/home/sam/development/<YOUR_PROJECT_NAME>/<YOUR_PROJECT_NAME>/build/Debug/CMakeFiles/rebuild_cache.dir
+/home/sam/development/<YOUR_PROJECT_NAME>/<YOUR_PROJECT_NAME>/build/Debug/CMakeFiles/edit_cache.dir
+/home/sam/development/<YOUR_PROJECT_NAME>/<YOUR_PROJECT_NAME>/build/Debug/CMakeFiles/<YOUR_PROJECT_NAME>.dir
